@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   width: 90%;
   max-width: 1110px;
   margin: auto;
@@ -15,7 +15,13 @@
     justify-content: space-around;
   }
 }
-
+.credentials {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ff0b37;
+  margin: 10px;
+}
 .login-website-logo-mobile-image {
   width: 165px;
   margin-top: 50px;
@@ -49,6 +55,14 @@
   .login-website-logo-desktop-image {
     display: none;
   }
+}
+.main-container {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-container {
